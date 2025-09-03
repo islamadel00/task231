@@ -6,7 +6,7 @@ import img4 from "./Assetsfooter/f4.png"
 import img5 from "./Assetsfooter/f5.png"
 import img6 from "./Assetsfooter/f6.png"
 
-import Foomin from "./Foomin"; 
+import Foomin from "./Foomin";
 
 const Footer = () => {
   return (
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container footer-content">
-      
+
         <div className="footer-col">
           <h4>Quick Links</h4>
           <ul>
@@ -40,17 +40,20 @@ const Footer = () => {
           </ul>
         </div>
 
-      
+
         <div className="footer-col">
           <h4>INSTAGRAM FEEDS</h4>
           <div className="insta-grid">
-            <Foomin img={img1} />
-            <Foomin img={img2} />
-            <Foomin img={img3} />
-            <Foomin img={img4} />
-            <Foomin img={img5} />
-            <Foomin img={img6} />
-          </div>
+         
+              <Foomin img={img1} />
+              <Foomin img={img2} />
+              <Foomin img={img3} />
+              <Foomin img={img4} />
+              <Foomin img={img5} />
+              <Foomin img={img6} />
+            </div>
+
+        
         </div>
         <div className="footer-col">
           <h4>Newsletter</h4>

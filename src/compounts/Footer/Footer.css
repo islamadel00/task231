@@ -96,13 +96,18 @@
 /* Instagram Grid */
 .insta-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
+  width: 11rem;
+  height: auto; /* أو سبتها بارتفاع ثابت لو عايز */
 }
 
 .insta-grid img {
   width: 100%;
-  border-radius: 6px;
+  height: 100%;
+  object-fit: cover; /* تملى المساحة كلها */
+  display: block;
+  border-radius: 4px; 
 }
 
 /* Newsletter */
@@ -142,21 +147,4 @@
   color: #aaa;
 }
 
-/* Responsive */
-@media (max-width: 992px) {
-  .footer-content {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
-@media (max-width: 600px) {
-  .footer-content {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-contact {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-}

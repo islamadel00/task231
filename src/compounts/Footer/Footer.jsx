@@ -6,12 +6,11 @@ import img4 from "./Assetsfooter/f4.png"
 import img5 from "./Assetsfooter/f5.png"
 import img6 from "./Assetsfooter/f6.png"
 
-import Foomin from "./Foomin"; // ✅ مهم تستورد الكمبوننت
+import Foomin from "./Foomin"; 
 
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* ====== Footer Header with Contact Info ====== */}
       <div className="footer-header container">
         <div className="footer-contact">
           <div>
@@ -28,10 +27,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* ====== Footer Content ====== */}
       <div className="container footer-content">
-        {/* Quick Links */}
+      
         <div className="footer-col">
           <h4>Quick Links</h4>
           <ul>
@@ -43,7 +40,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Instagram */}
+      
         <div className="footer-col">
           <h4>INSTAGRAM FEEDS</h4>
           <div className="insta-grid">
@@ -55,8 +52,6 @@ const Footer = () => {
             <Foomin img={img6} />
           </div>
         </div>
-
-        {/* Newsletter */}
         <div className="footer-col">
           <h4>Newsletter</h4>
           <p>Subscribe to our newsletter and get the latest updates.</p>
@@ -67,7 +62,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom */}
       <div className="footer-bottom">
         <p>© 2025 NEWHOME. All Rights Reserved.</p>
       </div>

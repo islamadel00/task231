@@ -1,0 +1,162 @@
+.footer {
+  background: #111;
+  color: #fff;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== Footer Header (Contact Info) ===== */
+.footer-header {
+
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+}
+
+.footer-contact div {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+  color: #ccc;
+  font-size: 14px;
+  flex-direction: column;
+  margin: auto;
+}
+
+.footer-contact i {
+  color:white;
+  font-size: 30px;
+
+
+}
+
+/* ===== Footer Content ===== */
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.footer-col h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-col p,
+.footer-col ul li a {
+  font-size: 14px;
+  color:white;
+  line-height: 1.8;
+      text-decoration: none;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a:hover {
+  color: #fff;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #ccc;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+/* Instagram Grid */
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.insta-grid img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #3734a9;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background: #2b2880;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}

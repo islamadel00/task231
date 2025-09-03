@@ -1,0 +1,79 @@
+/* Section */
+.furniture {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.furniture h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.furniture p {
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  color: #555;
+}
+
+/* Grid */
+.furniture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+.card-img{
+  width: 100%;
+  height: 355px;
+display: flex;
+}
+
+.card img {
+  width: 100%;
+object-fit: contain;
+  display: block;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-body h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.card-body p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.card-body .btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  color: #27bb47;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+
+

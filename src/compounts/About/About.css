@@ -1,0 +1,57 @@
+/* SECTION GENERAL */
+.about {
+  padding: 100px 0;
+  background: #fafafa;  
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 60px;
+  align-items: center;
+}
+
+/* IMAGE */
+.about-img img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* TEXT */
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+  text-align: center;
+}
+
+.about-text p {
+font-size: 16px;
+    line-height: 1.2;
+    color: black;
+    margin-bottom: 25px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+ 
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn-blue {
+  background: #3734a9;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(55, 52, 169, 0.2);
+}

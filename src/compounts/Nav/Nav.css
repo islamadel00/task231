@@ -1,0 +1,37 @@
+nav {
+  background: #fff;
+ 
+}
+
+.container.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-icons a {
+  margin-left: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+

@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}  
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #212529;
+}
+
+.container {
+  width: 90%;          
+  max-width: 1200px;   
+  margin: 0 auto;      
+}

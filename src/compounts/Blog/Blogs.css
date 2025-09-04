@@ -57,3 +57,41 @@
   padding: 8px 20px;
   font-size: 14px;
 }
+
+@media (max-width: 992px) {
+  .blog-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .blog-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .blog-text h3 {
+    font-size: 16px;
+  }
+
+  .blog-text p {
+    font-size: 13px;
+  }
+
+  .blog-text .btn {
+    font-size: 13px;
+    padding: 6px 16px;
+  }
+}

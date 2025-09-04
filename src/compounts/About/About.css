@@ -55,3 +55,47 @@ font-size: 16px;
   color: #fff;
   box-shadow: 0 4px 12px rgba(55, 52, 169, 0.2);
 }
+/* RESPONSIVE DESIGN */
+
+
+@media (max-width: 992px) {
+  .about-content {
+    grid-template-columns: 1fr; 
+    gap: 40px;
+    text-align: center;
+  }
+
+  .about-text {
+    margin: 0 auto;
+  }
+
+  .about-text h2 {
+    font-size: 30px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .about {
+    padding: 60px 20px; 
+  }
+
+  .about-text h2 {
+    font-size: 24px;
+  }
+
+  .about-text p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

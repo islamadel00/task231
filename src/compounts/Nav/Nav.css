@@ -22,6 +22,9 @@ nav {
   list-style: none;
   gap: 48px;
 }
+.hamburger{
+  display: none;
+}
 
 .nav-links a {
   text-decoration: none;

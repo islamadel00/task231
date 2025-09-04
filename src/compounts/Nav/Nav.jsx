@@ -18,7 +18,7 @@ function Nav() {
                         <a href="#"><i className="fa-solid fa-user"></i> LOGIN</a>
                         <a href="#"><i className="fa-solid fa-magnifying-glass"></i></a>
                     </div>
-                      {/* hamburger */}
+                    
     <div class="hamburger">&#9776;</div>
                 </div>
             </nav>
